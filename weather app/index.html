@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather docst</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conatiner">
+        <div class="search_section">
+           <input id="cityInput" type="search" placeholder="Enter your city name"
+           spellcheck="false">
+           <button ><img src="images/search.png" alt=""></button>
+        </div>
+
+        <div class="weather_img">
+            <img src="images/drizzle.png" alt="">
+        </div>
+        <div class="weather_temp">
+            26°C
+        </div>
+        <div class="city">
+            Ahmedabad
+        </div>
+        <div class="weather_footer">
+            <div class="humidity_section">
+                <div class="hm_upper">
+                    <img src="images/humidity.png" alt="">
+                    <span>64%</span>
+                </div>
+                <div class="hm_lower">
+                    Humidity
+                </div>
+    
+            </div>
+
+            <div class="wind_section">
+                <div class="w_upper">
+                    <img src="images/wind.png" alt="">
+                    <span>18 km/h</span>
+                </div>
+                <div class="w_lower">
+                    Wind speed
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="call_api.js"></script>
+
+</body>
+</html>

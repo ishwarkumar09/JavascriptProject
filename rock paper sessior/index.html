@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1 class="myH1">Rock-Paper-Sessior</h1>
+      <button class="myButtons" onclick="playGame('rock')">👊</button>
+      <button class="myButtons" onclick="playGame('paper')">🖐️</button>
+      <button class="myButtons" onclick="playGame('sessior')">✂️</button>
+      <h2 id="display-player">Player:</h2>
+      <h2 id="display-computer">computer:</h2>
+
+      <p id="display-result">It's a tie</p>
+      <p id="player-score">Player Score:</p>
+      <p id="computer-score">Computer Score:</p>
+      <div id="tie-game">Tie Game:</div>
+      <div id="total-chance">Total Chance:</div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
